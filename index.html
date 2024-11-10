@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/aaap.js"></script>
+    <link rel="stylesheet " href="/style.css" />
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="top-nav">
+        <p>We're open and available for takeaway & delivery. Order Now</p>
+      </div>
+      <nav>
+        <img src="/papka/загруженное.png" alt="logo" />
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="nav-links">
+          <a href="">Home</a>
+          <a href="">Order</a>
+          <a href="">Company</a>
+          <a href="">Faq</a>
+          <a href="">Contact</a>
+          <img src="/papka/Frame (1).png" alt="img" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="home">
+        <div class="home-wrapper">
+          <div class="home-text">
+            <h1>
+              Beautiful food & takeaway, <span>delivered</span> to your door.
+            </h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500.
+            </p>
+            <br>
+            <br>
+            <button>Place an Order</button>
+            <br>
+            <br>
+            <img src="/papka/Frame (2).svg" alt="">
+          </div>
+          <img src="/papka/IMAGE (1).svg" class="food-img" alt="" />
+        </div>
+      </div>
+      <div class="order">
+        <div class="order-wrapper">
+          <div class="order">
+            <h1 style="color:  #35B8BE;">
+              The home of  fresh products
+            </h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+              has been the industry's standard dummy text ever since the 1500.
+            </p>
+            <br>
+            <br>
+            <button>Place an Order</button>
+            
+          </div>
+          <img src="/papka/IMAGE (2).svg" class="food-img" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
